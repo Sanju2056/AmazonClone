@@ -1,0 +1,101 @@
+.sp-main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+}
+
+.sp-box {
+    height: max-content;
+    width: 700px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px 40px 30px;
+}
+
+.sp-box-container {
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    padding: 15px 0 20px 0;
+}
+
+.sp-heading {
+    margin-left: 15px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.sp-input-box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.sp-t-title{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.sp-text-input{
+    height: 25px;
+    width: 80%;
+    border-radius: 4px;
+    border: lightgray solid 1px;
+    padding-left: 7px;
+    font-size: 12px;
+    
+}
+.sp-text-input:focus{
+    outline: none;
+}
+.sp-input-box {
+    /* background-color: green; */
+    width: 100%;
+}
+.sp-gender-div{
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-left: 10px;
+}
+.sp-genders{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.sp-gender-title{
+    margin: 10px 0px 10px 15px;
+    text-decoration: underline;
+}
+.sp-genders-text{
+    font-size: 14px;
+}
+.sp-button{
+    margin: 15px 0px 0 0 ;
+    height: 35px;
+    width: 50%;
+    border-radius: 5px;
+    border: lightgray solid 1px;
+    cursor: pointer;
+}
+.sp-button-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sp-gender-input{
+    cursor: pointer;
+}
+.sp-button-text{
+    font-size: 13px;
+    font-weight: 700;
+}

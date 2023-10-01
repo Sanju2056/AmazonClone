@@ -1,0 +1,143 @@
+.box-main {
+    width: 100%;
+    background-color: #e3e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b-card {
+    height: 390px;
+    width: 320px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.b-card-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 8px 0 12px 0;
+}
+
+.b-img-div {
+    background-color: red;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+    /* cursor: pointer; */
+}
+
+.b-img-css {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.b-card-seeMore {
+    font-size: 12px;
+    color: lightgray;
+    opacity: 70%;
+    font-weight: 600;
+    /* cursor: pointer; */
+}
+
+.b-card-seeMore:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.b-container-1 {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin: 20px 0 20px 0;
+}
+
+.b-container-2 {
+    width: 95%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 18px 18px 15px 18px;
+
+}
+
+.book-card-div {
+    height: 200px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.book-css {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+
+}
+
+.book-container {
+    height: max-content;
+    display: flex;
+    gap: 15px;
+    overflow-x: scroll;
+    align-items: center;
+    /* background-color: red; */
+    padding: 10px ;
+}
+
+.book-container::-webkit-scrollbar{
+    height: 5px;
+    background-color:#e3e6e6;
+    border-radius: 10px;   
+}
+.book-container::-webkit-scrollbar-thumb{
+    background-color:#bdbdbd;
+    border-radius: 20px;
+}
+.book-container::-webkit-scrollbar-thumb:hover{
+   cursor: pointer;
+}
+
+.b-container-3 {
+    height: max-content;
+    display: flex;
+    width: 96%;
+    background-color: red;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.span-css {
+    font-size: 13px;
+    font-weight: 500;
+    color: lightgray;
+    margin-left: 10px;
+}
+
+.b-c3-card-container {
+    height: max-content;
+    background-color: yellow;
+    display: flex;
+}
+
+.b-c3-card {
+    height: 240px;
+    width: 220px;
+    padding: 20px;
+    background-color: green;
+}
+.b-c3-img-div{
+    height: 200px;
+    width: 100%;
+    background-color: #e4e6e6;
+}
