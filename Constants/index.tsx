@@ -366,7 +366,63 @@ const arrayThree = [
 		newPrice:"75",
 		oldPrice:"100",
 		itemName:"Pet Toys"
+	},
+	{
+		image:"/book11.png",
+		offer:"25%",
+		newPrice:"30",
+		oldPrice:"45",
+		itemName:"Old Children , Erin Danyea"
+	},
+	{
+		image:"/smartwatch.jpg",
+		offer:"25%",
+		newPrice:"50",
+		oldPrice:"75",
+		itemName:"Smart Watch"
+	},
+	{
+		image:"/laptop.jpeg",
+		offer:"25%",
+		newPrice:"700",
+		oldPrice:"900",
+		itemName:"Latest model Laptop"
+	},
+	{
+		image:"/headphones.jpg",
+		offer:"25%",
+		newPrice:"60",
+		oldPrice:"90",
+		itemName:"WireLess Headphones"
+	},
+	{
+		image:"/iphone.jpg",
+		offer:"25%",
+		newPrice:"888",
+		oldPrice:"999",
+		itemName:"iPhone 14 Pro Max"
+	},
+	{
+		image:"/current.jpg",
+		offer:"25%",
+		newPrice:"15",
+		oldPrice:"20",
+		itemName:"2X Spicy Noodles"
+	},
+	{
+		image:"/hygine.jpg",
+		offer:"25%",
+		newPrice:"70",
+		oldPrice:"90",
+		itemName:"Personal Hygiene"
+	},
+	{
+		image:"/dog.jpg",
+		offer:"25%",
+		newPrice:"75",
+		oldPrice:"100",
+		itemName:"Pet Toys"
 	}
 ]
 
-export { quiz,arrayLast, footerTop, footerEnd, image, topCardItems };
+export { quiz,arrayLast, footerTop, footerEnd, image, topCardItems,arrayThree };
