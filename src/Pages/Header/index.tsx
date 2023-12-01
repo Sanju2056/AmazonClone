@@ -3,6 +3,7 @@ import AmazonIcon from '/amazoon.png'
 import flag from '/flag.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot, faMagnifyingGlass, faCartArrowDown, faCaretDown, faBars } from '@fortawesome/free-solid-svg-icons'
+import SelectLocation from '../SelectLocation'
 const Header = () => {
   const Heading = ['Today Deal', 'Customer Service', ' Registry', 'Gift Cards', ' Sell']
   return (
@@ -78,6 +79,7 @@ const Header = () => {
           })
         }
       </div>
+      <SelectLocation/>
     </div>
   )
 }
